@@ -127,9 +127,9 @@ p {
   color: rgb(115, 115, 115);
 }
 
-.task-row .more-icon::before {
+/* .task-row .more-icon::before {
   content: "⋮";
-}
+} */
 
 .task-row .delete-icon {
   cursor: pointer;
@@ -162,4 +162,12 @@ p {
   background-color: rgb(227, 237, 255);
   color: rgb(5, 50, 250);
   font-weight: 600;
+}
+
+.material-symbols-sharp {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
 }

@@ -1,7 +1,7 @@
 {
   "name": "to_do_list",
   "version": "1.0.0",
-  "description": "<a name=\"readme-top\"></a>",
+  "description": "To Do List",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,8 +9,8 @@
     "build": "webpack"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Juan Carlos Muñoz",
+  "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
