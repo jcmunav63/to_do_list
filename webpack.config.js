@@ -5,7 +5,7 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   devServer: {
-    static: 'dist',
+    static: './dist',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -15,7 +15,7 @@ module.exports = {
   ],
   output: {
     path: path.resolve(__dirname, "dist"),
-    // filename: 'main.js',
+    //filename: 'main.js',
     filename: '[name].js',
     // chunkFilename: (pathData) => {
     //  return pathData.chunk.name === 'main' ? '[name].js' : '[name]/[name].js';
